@@ -17,3 +17,10 @@ def factorial(n):
     return(math.factorial(n))
     num=int(input("enter the number"))
     print(factorial(num))
+
+#nested dictionary
+information={
+    'jyothika':{"salary":12000,"perks":30000},
+    'sravya':{"salary":18000,"perks":50000},
+}
+print(information['sravya']['perks'])
