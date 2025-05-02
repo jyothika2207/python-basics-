@@ -31,3 +31,10 @@ location={
     (34.0522,-119.2347):'Melbourne',
 }
 print(location[(40.7128,-73.070)])
+
+#sample keys and values program
+information={'name':'india','number':123}
+v='india'
+for key, value in information.items():
+    if value==v:
+        print(f"key for value '{v}':{key}")
