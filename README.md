@@ -24,3 +24,10 @@ information={
     'sravya':{"salary":18000,"perks":50000},
 }
 print(information['sravya']['perks'])
+
+#tuple keys in order to access a dictionary
+location={
+    (40.7128,-73.070):'New York',
+    (34.0522,-119.2347):'Melbourne',
+}
+print(location[(40.7128,-73.070)])
