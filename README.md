@@ -38,3 +38,11 @@ v='india'
 for key, value in information.items():
     if value==v:
         print(f"key for value '{v}':{key}")
+
+        
+#unique program
+nums=[1,2,3,4]
+unique=set(nums)
+print(unique)
+        
+        
